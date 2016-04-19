@@ -1,6 +1,6 @@
 Vivado Simulator 2015.3
 Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
-Running: /usr/local.nfs/pas/sw/Xilinx/Vivado/2015.3/bin/unwrapped/lnx64.o/xelab -wto adb8965db4bb44f9b39202338a9f5ce9 --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot RippleCarryAdder_tb_behav xil_defaultlib.RippleCarryAdder_tb -log elaborate.log 
+Running: /usr/local.nfs/pas/sw/Xilinx/Vivado/2015.3/bin/unwrapped/lnx64.o/xelab -wto adb8965db4bb44f9b39202338a9f5ce9 --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot CarryLookAheadAdder_tb_behav xil_defaultlib.CarryLookAheadAdder_tb -log elaborate.log 
 Using 8 slave threads.
 Starting static elaboration
 Completed static elaboration
@@ -9,7 +9,6 @@ Completed simulation data flow analysis
 Time Resolution for simulation is 1ps
 Compiling package std.standard
 Compiling package ieee.std_logic_1164
-Compiling architecture behavioral of entity xil_defaultlib.FullAdder [fulladder_default]
-Compiling architecture behavioral of entity xil_defaultlib.RippleCarryAdder [\RippleCarryAdder(8)\]
-Compiling architecture behavioral of entity xil_defaultlib.ripplecarryadder_tb
-Built simulation snapshot RippleCarryAdder_tb_behav
+Compiling architecture behavioral of entity xil_defaultlib.CarryLookAheadAdder [\CarryLookAheadAdder(8)\]
+Compiling architecture behavioral of entity xil_defaultlib.carrylookaheadadder_tb
+Built simulation snapshot CarryLookAheadAdder_tb_behav

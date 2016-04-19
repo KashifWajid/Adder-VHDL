@@ -9,4 +9,4 @@ then
 exit $RETVAL
 fi
 }
-ExecStep $xv_path/bin/xsim RippleCarryAdder_tb_behav -key {Behavioral:sim_1:Functional:RippleCarryAdder_tb} -tclbatch RippleCarryAdder_tb.tcl -log simulate.log
+ExecStep $xv_path/bin/xsim CarryLookAheadAdder_tb_behav -key {Behavioral:sim_1:Functional:CarryLookAheadAdder_tb} -tclbatch CarryLookAheadAdder_tb.tcl -log simulate.log
