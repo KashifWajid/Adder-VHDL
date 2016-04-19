@@ -1,6 +1,6 @@
 ----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
+-- Company: University Of Stuttgart
+-- Engineer: Kashif Wajid
 -- 
 -- Create Date: 04/18/2016 05:20:36 PM
 -- Design Name: 

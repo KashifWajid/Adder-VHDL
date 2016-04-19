@@ -1,6 +1,6 @@
 ----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
+-- Company: University Of Stuttgart
+-- Engineer: Ksahif Wajid
 -- 
 -- Create Date: 04/18/2016 06:14:34 PM
 -- Design Name: 
@@ -38,13 +38,14 @@ end RippleCarryAdder_tb;
 architecture Behavioral of RippleCarryAdder_tb is
   -- Component Declaration for the Unit Under Test (UUT)
   COMPONENT RippleCarryAdder  --'test' is the name of the module needed to be tested.
+  Generic (N : Natural := 8);
 --just copy and paste the input and output ports of your module as such. 
   PORT( 
        c_in : in STD_LOGIC;                     
-       a : in STD_LOGIC_VECTOR (7 downto 0);    
-       b : in STD_LOGIC_VECTOR (7 downto 0);    
+       a : in STD_LOGIC_VECTOR (N-1 downto 0);    
+       b : in STD_LOGIC_VECTOR (N-1 downto 0);    
        c_out : out STD_LOGIC;                   
-       s_out : out STD_LOGIC_VECTOR (7 downto 0)
+       s_out : out STD_LOGIC_VECTOR (N-1 downto 0)
       );
   END COMPONENT;
  --declare inputs and initialize them

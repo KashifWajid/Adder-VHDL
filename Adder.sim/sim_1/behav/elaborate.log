@@ -10,6 +10,6 @@ Time Resolution for simulation is 1ps
 Compiling package std.standard
 Compiling package ieee.std_logic_1164
 Compiling architecture behavioral of entity xil_defaultlib.FullAdder [fulladder_default]
-Compiling architecture behavioral of entity xil_defaultlib.RippleCarryAdder [ripplecarryadder_default]
+Compiling architecture behavioral of entity xil_defaultlib.RippleCarryAdder [\RippleCarryAdder(8)\]
 Compiling architecture behavioral of entity xil_defaultlib.ripplecarryadder_tb
 Built simulation snapshot RippleCarryAdder_tb_behav
