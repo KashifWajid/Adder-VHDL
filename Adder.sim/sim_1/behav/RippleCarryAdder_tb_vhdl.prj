@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "../../../Adder.srcs/sources_1/new/FullAdder.vhd"
+vhdl xil_defaultlib  "../../../Adder.srcs/sources_1/new/RippleCarryAdder.vhd"
+vhdl xil_defaultlib  "../../../Adder.srcs/sim_1/new/RippleCarryAdder_tb.vhd"
+
+# Do not sort compile order
+nosort
